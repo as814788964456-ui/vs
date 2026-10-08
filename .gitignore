@@ -1,0 +1,13 @@
+# 相依套件（在新電腦用 npm install / pip install 重建）
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# 系統與執行產生的檔案
+.DS_Store
+.ipynb_checkpoints/
+lightning_logs/
+
+# Agent skills（不放進版控）
+.agent/

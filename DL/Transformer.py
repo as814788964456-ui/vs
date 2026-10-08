@@ -1,0 +1,2 @@
+from transformers.pipelines import pipeline
+pipeline
